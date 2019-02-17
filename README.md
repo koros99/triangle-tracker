@@ -21,3 +21,10 @@ Interested users can fork or clone this project from their github accounts.
 1. HTML - for user interface.
 2. CSS - for styling the webpage
 3. Javascript - for interactivity and processing user input.
+
+## Author and Contact Information
+Written by Victor Kilel, Moringa Prep Student.
+Email: vickiekross99@gmail.com
+
+## License and Copyright
+MIT Copyright (c) 2019 Victor Kilel.
