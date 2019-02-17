@@ -8,3 +8,11 @@ Interested users can fork or clone this project from their github accounts.
 * On the top right corner, click fork.
 * Alternatively, you can use the clone option on the green button.
 * Users can view the live website through https://koros99.github.io/triangle-tracker
+
+## BDD
+| Condition | Output     |
+| :------------- | :------------- |
+| The sum of any two sides must be  greater than the third side     | If not met, then the sides cannot form a triangle.      |
+| All sides are equal | These sides form an equilateral triangle |
+| Two sides are equal | These sides form an isosceles triangle |
+| No sides are equal | These sides form a scalene triangle |
