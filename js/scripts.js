@@ -1,8 +1,8 @@
 var tracker = function(a, b, c) {
 
-  // var a = parseInt(document.getElementById("one").value);
-  // var b = parseInt(document.getElementById("two").value);
-  // var c = parseInt(document.getElementById("three").value);
+  var a = parseInt(document.getElementById("one").value);
+  var b = parseInt(document.getElementById("two").value);
+  var c = parseInt(document.getElementById("three").value);
 
   if ((a + b > c && a + c > b && b + c > a) && (a === b && b === c)) {
     document.getElementById("output").innerHTML = "This is an equilateral triangle";
