@@ -2,26 +2,29 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <title>Triangle Tracker</title>
   </head>
   <body>
-    <div id="welcome">
-      <p>Welcome to <strong>Triangle Tracker</strong>! Try out whether a set of three side lengths can form a triange, and if they do, which type of triangle they form.</p>
-    </div>
     <div class="triangle">
-      <h1>Track a triangle below:</h1>
-      <form>
-        Enter first side:<input type="number" id="one">
-        <br></br>
-        Enter second side:<input type="number" id="two">
-        <br></br>
-        Enter third side:<input type="number" id="three">
-        <br></br>
-        <button type= "button" name="button" onclick="tracker()">Check</button>
-        <button type="reset">Reset</button>
-      </form>
-      <span id = "output"></span>
-      <script charset="utf-8" src=js/scripts.js></script>
+      <div id="welcome">
+        <p>Welcome to <strong>Triangle Tracker</strong>! Try out whether a set of three side lengths can form a triange, and if they do, which type of triangle they form.</p>
+      </div>
+      <div id="input">
+        <h1>Track a triangle below:</h1>
+        <form>
+          Enter first side:<input type="number" id="one">
+          <br></br>
+          Enter second side:<input type="number" id="two">
+          <br></br>
+          Enter third side:<input type="number" id="three">
+          <br></br>
+          <button type= "button" name="button" onclick="tracker()">Check</button>
+          <button type="reset">Reset</button>
+        </form>
+        <span id = "output"></span>
+        <script charset="utf-8" src=js/scripts.js></script>
+      </div>
     </div>
   </body>
 </html>
