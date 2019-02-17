@@ -16,3 +16,8 @@ Interested users can fork or clone this project from their github accounts.
 | All sides are equal | These sides form an equilateral triangle |
 | Two sides are equal | These sides form an isosceles triangle |
 | No sides are equal | These sides form a scalene triangle |
+
+## Technologies used
+1. HTML - for user interface.
+2. CSS - for styling the webpage
+3. Javascript - for interactivity and processing user input.
