@@ -19,8 +19,8 @@
           <br></br>
           Enter third side:<input type="number" id="three">
           <br></br>
-          <button type= "button" name="button" onclick="tracker()">Check</button>
-          <button type="reset">Reset</button>
+          <button type= "button" name="button" onclick="tracker(); document.getElementById('output').style.display= 'block'" >Check</button>
+          <button type="reset" onclick="document.getElementById('output').style.display= 'none'">Reset</button>
         </form>
         <span id = "output"></span>
         <script charset="utf-8" src=js/scripts.js></script>
