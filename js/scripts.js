@@ -22,6 +22,6 @@ var tracker = function(a, b, c) {
   }
 }
 
-function triangle() {
-  location.reload(true)
-}
+// function triangle() {
+//   location.reload(true)
+// }
