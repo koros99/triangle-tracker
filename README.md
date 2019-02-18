@@ -16,6 +16,7 @@ Interested users can fork or clone this project from their github accounts.
 | All sides are equal | These sides form an equilateral triangle |
 | Two sides are equal | These sides form an isosceles triangle |
 | No sides are equal | These sides form a scalene triangle |
+| Input for any side is blank | Please input all side lengths |
 
 ## Technologies used
 1. HTML - for user interface.
