@@ -21,3 +21,11 @@ body{
 #input{
   font-size: 1.5em;
 }
+
+button{
+  font-size: 1em;
+  background-color: white;
+  color: black;
+  padding: 0.1em 0.5em;
+  font-family: 'Roboto', sans-serif;
+}
